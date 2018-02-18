@@ -1,0 +1,93 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), 
+       url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'); 
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v15-latin-700.woff2') format('woff2'),
+       url('../fonts/open-sans-v15-latin-700.woff') format('woff'),
+       url('../fonts/open-sans-v15-latin-700.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+#intro {
+  position: relative;
+  height: auto;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+#intro h1 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.bar-label, .x-axis {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.x-axis path,
+.x-axis line {
+  fill: none;
+  stroke: #333333;
+  shape-rendering: crispEdges;
+}
+     
+#tooltip {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+#source {
+  position: relative;
+  height: auto;
+  padding: 3px;
+  margin-left: 50px;
+}
+
+#source p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #1b7837;
+}
+
+a:visited {
+  color: #1b7837;
+}
+
+a:focus {
+  border-bottom: 1px dotted;  
+}
+
+a:hover {
+  border-bottom: 1px dotted;     
+}
+
+a:active {
+  color: #762a83;
+}
